@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>M-Angels shoes - products</title>
+    <title>M-Angels shoes - account</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
@@ -13,11 +13,11 @@
                     </div>
                     <nav>
                         <ul id="MenuItems">
-                            <li><a href="">Home</a></li>
+                            <li><a href="index.html">Home</a></li>
                             <li><a href="product.html">Products</a></li>
-                            <li><a href="">About</a></li>
-                            <li><a href="">Account</a></li>
-                            <li><a href="">Contact Us</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="account.html">Account</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
                         </ul>
                     </nav>
                     <img src="shoes/cart"  width="30px" height="30px">
@@ -27,71 +27,40 @@
                 </div>
         </div>
     </div>
-    <!--cart item details-->
-    <div class="small-container cart-page">
-        <table>
-            <tr>
-                <th>Product</th>
-                <th>Quantity</th>
-                <th>Subtotal</th>
+    <!--account page-->
 
-            </tr>
-            <tr>
-                <td>
-                    <div class="cart-info">
-                        <img src="shoes/s1.jpg">
-                        <div>
-                            <p>Airforce 1</p>
-                            <small>Price: Ksh 2,600</small>
-                            <a href="">Remove</a>
+    <div class="account-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="shoes/main.jpg" width="100%">
+                </div>
+                <div class="col-2">
+                    <div class="form-container">
+                        <div class="form-btn">
+                            <span>Login</span>
+                            <span>Register</span>
                         </div>
+                        <form>
+                            <input type="text" placeholder="Username">
+                            <input type="password" placeholder="password">
+                            <button type="submit" class="btn">Login</button>
+                            <a href="">Forgot password</a>
+                        </form>
+
+                        <form>
+                            <input type="text" placeholder="Username">
+                            <input type="email" placeholder="jd@example.com">
+                            <input type="password" placeholder="password">
+                            <button type="submit" class="btn">Register</button>
+                            
+                        </form>
                     </div>
-                </td>
-                <td> <input type="number" value="1"></td>
-                <td>Ksh 5,000</td>
-            </tr>
-            <tr>
-                <td>
-                    <div class="cart-info">
-                        <img src="shoes/s2.jpg">
-                        <div>
-                            <p>greens</p>
-                            <small>Price: Ksh 3,000</small>
-                            <a href="">Remove</a>
-                        </div>
-                    </div>
-                </td>
-                <td> <input type="number" value="1"></td>
-                <td>Ksh 5,000</td>
-            </tr>
-            <tr>
-                <td>
-                    <div class="cart-info">
-                        <img src="shoes/shoe1.jpg">
-                        <div>
-                            <p>Black heels</p>
-                            <small>Price: Ksh 1,500</small>
-                            <a href="">Remove</a>
-                        </div>
-                    </div>
-                </td>
-                <td> <input type="number" value="1"></td>
-                <td>Ksh 5,000</td>
-            </tr>
-        </table>
-        <div class="totalprice">
-            <table>
-                <tr>
-                    <td>Subtotal</td>
-                    <td>Ksh 15,000</td>
-                </tr>
-                <tr>
-                    <td>Total</td>
-                    <td>Ksh 15,000</td>
-                </tr>
-            </table>
+                </div>
+            </div>
         </div>
     </div>
+      <!--footer-->     
     <div class="footer">
         <div class="container">
             <div class="footer-col-1">
